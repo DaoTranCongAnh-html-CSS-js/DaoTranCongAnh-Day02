@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniShop - Đăng nhập</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a class="brand" href="index.html">MiniShop</a>
+            <p>Cửa hàng công nghệ dành cho sinh viên</p>
+            <nav class="main-nav" aria-label="Điều hướng chính">
+                <a href="index.html">Trang chủ</a>
+                <a href="about.html">Giới thiệu</a>
+                <a href="product.html">Sản phẩm</a>
+                <a href="register.html">Đăng ký</a>
+                <a class="active" aria-current="page" href="login.html">Đăng nhập</a>
+                <a href="cart.html">Giỏ hàng (<span class="cart-count">0</span>)</a>
+                <a href="contact.html">Liên hệ</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container page-content">
+        <h1>Đăng nhập</h1>
+        <form class="form-panel" data-validate="login">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="password">Mật khẩu</label>
+            <input type="password" id="password" name="password" required>
+            <label class="check-label" for="remember">
+                <input type="checkbox" id="remember" name="remember"> Ghi nhớ đăng nhập
+            </label>
+            <button class="button" type="submit">Đăng nhập</button>
+            <p class="form-message" aria-live="polite"></p>
+        </form>
+        <p>Chưa có tài khoản? <a href="register.html">Đăng ký</a></p>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <p><strong>MiniShop</strong> - Cửa hàng công nghệ dành cho sinh viên</p>
+            <p>Email: minishop@gmail.com | Hotline: 0123 456 789</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniShop - Liên hệ</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a class="brand" href="index.html">MiniShop</a>
+            <p>Cửa hàng công nghệ dành cho sinh viên</p>
+            <nav class="main-nav" aria-label="Điều hướng chính">
+                <a href="index.html">Trang chủ</a>
+                <a href="about.html">Giới thiệu</a>
+                <a href="product.html">Sản phẩm</a>
+                <a href="register.html">Đăng ký</a>
+                <a href="login.html">Đăng nhập</a>
+                <a href="cart.html">Giỏ hàng (<span class="cart-count">0</span>)</a>
+                <a class="active" aria-current="page" href="contact.html">Liên hệ</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container page-content">
+        <h1>Liên hệ</h1>
+        <form class="form-panel" id="contact-form" novalidate>
+            <label for="name">Họ và tên</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="subject">Tiêu đề</label>
+            <input type="text" id="subject" name="subject" required>
+            <label for="message">Nội dung</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+            <p class="form-message" aria-live="polite"></p>
+            <button class="button" type="submit">Gửi liên hệ</button>
+        </form>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <p><strong>MiniShop</strong> - Cửa hàng công nghệ dành cho sinh viên</p>
+            <p>Email: minishop@gmail.com | Hotline: 0123 456 789</p>
+        </div>
+    </footer>
+</body>
+</html>

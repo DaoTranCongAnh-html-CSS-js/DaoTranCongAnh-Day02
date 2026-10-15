@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniShop - Giỏ hàng</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a class="brand" href="index.html">MiniShop</a>
+            <p>Cửa hàng công nghệ dành cho sinh viên</p>
+            <nav class="main-nav" aria-label="Điều hướng chính">
+                <a href="index.html">Trang chủ</a>
+                <a href="about.html">Giới thiệu</a>
+                <a href="product.html">Sản phẩm</a>
+                <a href="register.html">Đăng ký</a>
+                <a href="login.html">Đăng nhập</a>
+                <a class="active" aria-current="page" href="cart.html">Giỏ hàng (<span class="cart-count">0</span>)</a>
+                <a href="contact.html">Liên hệ</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container page-content">
+        <h1>Giỏ hàng</h1>
+        <p id="cart-message" class="form-message" aria-live="polite"></p>
+        <div class="table-wrap">
+            <table class="cart-table">
+                <thead>
+                    <tr>
+                        <th>Sản phẩm</th>
+                        <th>Đơn giá</th>
+                        <th>Số lượng</th>
+                        <th>Thành tiền</th>
+                    </tr>
+                </thead>
+                <tbody id="cart-items"></tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="3">Tổng tiền</th>
+                        <th id="cart-total">0đ</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <div class="cart-actions">
+            <button class="button button-danger" id="clear-cart" type="button">Xóa giỏ hàng</button>
+            <button class="button" id="checkout" type="button">Đặt hàng</button>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <p><strong>MiniShop</strong> - Cửa hàng công nghệ dành cho sinh viên</p>
+            <p>Email: minishop@gmail.com | Hotline: 0123 456 789</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MiniShop - phụ kiện công nghệ dành cho sinh viên">
+    <title>MiniShop - Trang chủ</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a class="brand" href="index.html">MiniShop</a>
+            <p>Cửa hàng công nghệ dành cho sinh viên</p>
+            <nav class="main-nav" aria-label="Điều hướng chính">
+                <a class="active" aria-current="page" href="index.html">Trang chủ</a>
+                <a href="about.html">Giới thiệu</a>
+                <a href="product.html">Sản phẩm</a>
+                <a href="register.html">Đăng ký</a>
+                <a href="login.html">Đăng nhập</a>
+                <a href="cart.html">Giỏ hàng (<span class="cart-count">0</span>)</a>
+                <a href="contact.html">Liên hệ</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <section class="intro">
+            <h1>Sản phẩm nổi bật</h1>
+            <p>Chọn phụ kiện phù hợp cho học tập, làm việc và giải trí.</p>
+        </section>
+        <section class="product-grid" aria-label="Danh sách sản phẩm">
+            <article class="product-card">
+                <img src="images/sp01.png" alt="Chuột Logitech không dây">
+                <h2>Chuột Logitech</h2>
+                <p>Chuột không dây nhỏ gọn, tiện lợi mỗi ngày.</p>
+                <strong>499.000đ</strong>
+                <div class="card-actions">
+                    <a class="button button-light" href="product.html">Chi tiết</a>
+                    <button class="button" type="button" data-add-to-cart="mouse">Thêm vào giỏ</button>
+                </div>
+            </article>
+            <article class="product-card">
+                <img src="images/sp02.png" alt="Bàn phím cơ">
+                <h2>Bàn phím cơ</h2>
+                <p>Cảm giác gõ tốt cho học tập và chơi game.</p>
+                <strong>899.000đ</strong>
+                <div class="card-actions">
+                    <a class="button button-light" href="product.html">Chi tiết</a>
+                    <button class="button" type="button" data-add-to-cart="keyboard">Thêm vào giỏ</button>
+                </div>
+            </article>
+            <article class="product-card">
+                <img src="images/sp03.png" alt="Tai nghe Bluetooth">
+                <h2>Tai nghe Bluetooth</h2>
+                <p>Âm thanh rõ ràng, thoải mái khi di chuyển.</p>
+                <strong>699.000đ</strong>
+                <div class="card-actions">
+                    <a class="button button-light" href="product.html">Chi tiết</a>
+                    <button class="button" type="button" data-add-to-cart="headphones">Thêm vào giỏ</button>
+                </div>
+            </article>
+            <article class="product-card">
+                <img src="images/sp04.png" alt="Laptop ASUS Vivobook">
+                <h2>Laptop ASUS Vivobook</h2>
+                <p>Mỏng nhẹ, phù hợp học tập và lập trình.</p>
+                <strong>18.990.000đ</strong>
+                <div class="card-actions">
+                    <a class="button button-light" href="product.html">Chi tiết</a>
+                    <button class="button" type="button" data-add-to-cart="laptop">Thêm vào giỏ</button>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <p><strong>MiniShop</strong> - Cửa hàng công nghệ dành cho sinh viên</p>
+            <p>Email: minishop@gmail.com | Hotline: 0123 456 789</p>
+        </div>
+    </footer>
+</body>
+</html>

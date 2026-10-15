@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniShop - Chi tiết sản phẩm</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a class="brand" href="index.html">MiniShop</a>
+            <p>Cửa hàng công nghệ dành cho sinh viên</p>
+            <nav class="main-nav" aria-label="Điều hướng chính">
+                <a href="index.html">Trang chủ</a>
+                <a href="about.html">Giới thiệu</a>
+                <a class="active" aria-current="page" href="product.html">Sản phẩm</a>
+                <a href="register.html">Đăng ký</a>
+                <a href="login.html">Đăng nhập</a>
+                <a href="cart.html">Giỏ hàng (<span class="cart-count">0</span>)</a>
+                <a href="contact.html">Liên hệ</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container page-content">
+        <h1>Chi tiết sản phẩm</h1>
+        <section class="product-detail">
+            <img src="images/sp04.png" alt="Laptop ASUS Vivobook">
+            <div>
+                <h2>Laptop ASUS Vivobook</h2>
+                <p>Laptop mỏng nhẹ, phù hợp cho sinh viên học tập, lập trình và làm việc hằng ngày.</p>
+                <p class="price">18.990.000đ</p>
+                <button class="button" type="button" data-add-to-cart="laptop">Thêm vào giỏ hàng</button>
+                <h3>Bảng thông số</h3>
+                <table class="spec-table">
+                    <tbody>
+                        <tr><th>CPU</th><td>Intel Core i5</td></tr>
+                        <tr><th>RAM</th><td>16GB</td></tr>
+                        <tr><th>Ổ cứng</th><td>512GB SSD</td></tr>
+                        <tr><th>Màn hình</th><td>15.6 inch</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <p><strong>MiniShop</strong> - Cửa hàng công nghệ dành cho sinh viên</p>
+            <p>Email: minishop@gmail.com | Hotline: 0123 456 789</p>
+        </div>
+    </footer>
+</body>
+</html>
